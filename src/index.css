@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.LoginForm{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+  flex-direction: column;
 }
+
+.navBar{
+  width: 100%;
+}
+
+.cards{
+  display:flex;
+  justify-content: space-evenly;
+  border: 2px solid blue;
+  width: 100%;
+}
+
+.slider{
+  width:100%;
+}
+
+.selectCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .selectButton{
+  display: flex;
+  justify-items: center;
+  border: 2px solid blue;
+} */
+
+
